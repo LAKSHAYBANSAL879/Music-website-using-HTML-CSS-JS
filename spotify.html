@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="index.css">
+    <!-- <script src="index.js"></script> -->
+    <link rel="stylesheet" href="utils.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <!-- <div class="sidebox"> 
+            <img src="spotify.png" alt="" width="120px">
+            <p> <a href="home.html">Home</a></p>
+            <p><a href="https://open.spotify.com/search">Search</a></p>
+            <p><a href="yourlibrary.html">Your library</a></p>
+            <h4><a href="createplalyist.html">Create playlist</a></h4>
+            <h5><a href="likedsongs.html">Liked songs</a></h5>
+
+
+        </div> -->
+        <img src="photos/logo.png" alt="" width="100px">
+        <ul>
+           
+            <li><a href="login.html">Login</a></li>
+            <li><a href="support.html">Support</a></li>
+            <li><a href="Download.html">Download</a></li>
+            <li><a href="https://open.spotify.com/playlist/37i9dQZEVXbLZ52XmnySJg" target="_blank">Trending NOW INDIA</a></li>
+        </ul>
+        <input type="search">
+    </nav>
+    <main>
+
+        <div class="container">
+           
+            <div class="songlist"><h1>Best of my collection</h1>
+            <div class="songItem">
+                <img src="sb.jpg" alt="">
+                <span class="songName">Baller</span>
+               
+                <span class="songlistplay"> <i id="0" class=" far songItemplay  fa-play-circle"></i></span>
+            </div>
+            <div class="songItem">
+                <img src="photos/wr.jpg" alt="">
+                <span class="songName">We rollin</span>
+               
+                <span class="songlistplay"> <i id="1" class=" far songItemplay  fa-play-circle"></i></span>
+            </div>
+            <div class="songItem">
+                <img src="photos/cover3.jpg" alt="">
+                <span class="songName">295</span>
+               
+                <span class="songlistplay"> <i id="2" class="far songItemplay  fa-play-circle"></i></span>
+            </div>
+            <div class="songItem">
+                <img src="photos/cover4.jpg" alt="">
+                <span class="songName">Bhagwa</span>
+               
+                <span class="songlistplay"> <i id="3" class=" far songItemplay  fa-play-circle"></i></span>
+            </div>
+            <div class="songItem">
+                <img src="photos/cover55.jpg" alt="">
+                <span class="songName">The Last Ride</span>
+               
+                <span class="songlistplay"> <i id="4" class="far songItemplay  fa-play-circle"></i></span>
+            </div>
+            <div class="songItem">
+                <img src="photos/cover56.jpg" alt="">
+                <span class="songName">LEVELS</span>
+               
+                <span class="songlistplay"> <i id="5" class="far songItemplay  fa-play-circle"></i></span>
+            </div>
+            <div class="songItem">
+                <img src="photos/se.jpg" alt="">
+                <span class="songName">Elevated</span>
+               
+                <span class="songlistplay"> <i id="6" class="far songItemplay  fa-play-circle"></i></span>
+            </div>
+            <div class="songItem">
+                <img src="photos/jjp.jpg" alt="">
+                <span class="songName">Jhoome jo pathan </span>
+               
+                <span class="songlistplay"> <i id="7" class="far songItemplay  fa-play-circle"></i></span>
+            </div>
+        </div>
+            <div class="songbanner"> <img src="photos/bgg.jpg" alt=""></div>
+        </div>
+                <!-- <img src="bgg.jpg" alt=""> -->
+            <div id="bottom">
+                
+                <div class="icons">
+                <i class="fas fa-3x fa-fast-backward" id="back"></i>
+                <i class="far fa-3x  fa-play-circle" id="masterPlay"></i>
+                <i class="fas  fa-3x  fa-fast-forward" id="next"></i>
+                <!-- <i class=" songItemplayfa-3x   fa-play"></i> -->
+                <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+                </div>
+                <div class="songinfo">
+                    <img src="photos/playing.gif" width="65px" alt="" id="gif" >
+                   <!-- <span id="mastersongname"> Baller-Shubh </span> -->
+                </div>
+            </div>
+ 
+  </main>
+<footer>Copyright &copy; LAKSHAY BANSAL</footer>
+  <script src="https://kit.fontawesome.com/8c9b0ad18f.js" crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+nav{
+    display: flex;
+   /* flex-direction: column;  */
+   background-color: black;
+   color: white;
+   width: auto;
+   max-height: 50vh;
+   
+}
+nav ul li{
+   list-style: none;
+   padding: 1vw 6vw ;
+   /* justify-content: flex-end; */
+   /* align-items: center; */
+   color: white;
+   
+
+}
+nav ul{
+   display: flex;
+  justify-content: flex-start;
+    align-items: center; 
+    font-family: 'Pacifico', cursive;
+}
+img{
+   display: flex;
+
+}
+input{
+    max-height: 3vh;
+    display: flex;
+     width: 18vw;
+     align-items: center;
+     margin-top:45px;
+ 
+ 
+ }
+
+nav ul li a{
+   cursor: pointer;
+   color: white;
+}
+   body{
+    background-image: url();
+   }
+   .container {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  #login-form, #signup-form {
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type=text], input[type=email], input[type=password] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
